@@ -1,0 +1,27 @@
+---
+
+model: model_direct_vector
+weights: weights_last.pth
+dataset: mixed_dataset
+augment: 0
+shuffle: 1
+cuda: 0
+
+train_feature_extractor: 0
+
+
+epochs: 1000
+batches_per_epoch: 250
+val_batches_per_epoch: 50
+batch_size: 64
+
+optimizer: sgd
+lr: 0.005
+
+
+sample_name: ['heatmaps','vector_3d']
+output_name: ['heatmaps','vector_3d']
+loss_criterion: ['iou','mse']
+loss_weight: [1, 1]
+
+

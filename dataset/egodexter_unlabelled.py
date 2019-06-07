@@ -7,6 +7,8 @@ import os
 from PIL import Image
 
 class EgoDexter(Dataset):
+    '''Link to dataset: http://handtracker.mpi-inf.mpg.de/projects/OccludedHands/EgoDexter.htm'''
+    
     def __init__(self, config):
         self.root_dir = config['path']
         

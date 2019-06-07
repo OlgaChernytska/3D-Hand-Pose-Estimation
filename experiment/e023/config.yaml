@@ -1,0 +1,28 @@
+---
+
+model: model_direct_vector
+weights: weights_last.pth
+dataset: stereo
+augment: 1
+shuffle: 1
+cuda: 1
+
+train_feature_extractor: 1
+
+
+epochs: 100
+batches_per_epoch: 250
+val_batches_per_epoch: 50
+batch_size: 32
+
+optimizer: sgd
+lr: 0.001
+
+
+sample_name: ['heatmaps']
+output_name: ['heatmaps']
+loss_criterion: ['iou']
+loss_weight: [1]
+
+
+

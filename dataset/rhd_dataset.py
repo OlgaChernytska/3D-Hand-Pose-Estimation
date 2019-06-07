@@ -6,6 +6,8 @@ import os
 from PIL import Image
     
 class RhdDatasetSegmentation(Dataset):
+    '''Link to dataset: https://lmb.informatik.uni-freiburg.de/resources/datasets/RenderedHandposeDataset.en.html'''
+    
     def __init__(self, config):
         
         self.scope = config['scope']

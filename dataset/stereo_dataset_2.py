@@ -8,10 +8,11 @@ from PIL import Image
 
 
 class StereoDataset(Dataset):
-    """
-    Stereo dataset from https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0
-    """
-
+    '''
+    Links to dataset: https://sites.google.com/site/zhjw1988/,
+    https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0
+    '''
+    
     def __init__(self, config):   ## add split for training/validation??
         path = config['path']
 

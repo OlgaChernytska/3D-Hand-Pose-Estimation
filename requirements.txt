@@ -1,1 +1,3 @@
-add here
+torch
+torchvision
+opencv-python

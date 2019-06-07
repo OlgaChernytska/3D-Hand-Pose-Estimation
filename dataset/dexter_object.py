@@ -12,6 +12,9 @@ from utils import GaussianBlur, get_heatmap_from_coordinates, TransformBlur, Tra
 
 
 class DexterObjectDataset(Dataset):
+    '''Link to dataset: https://handtracker.mpi-inf.mpg.de/projects/RealtimeHO/dexter+object.htm'''
+    
+    
     def __init__(self, config):
         
         '''keypoint order = thumb, index, middle, ring, little'''
@@ -28,7 +31,7 @@ class DexterObjectDataset(Dataset):
             self.samples, self.labels3d = None, None
             
         
-        self.bboxes = pd.read_csv('dexter_labeling/bbox_dexter+object.csv')
+        self.bboxes = pd.read_csv('dataset/dexter_labeling/bbox_dexter+object.csv')
         
         color_intrisics = np.array([[587.45209, 0, 325],
                                     [0, 600.67456, 249],

@@ -11,6 +11,11 @@ from utils import GaussianBlur, get_heatmap_from_coordinates, TransformBlur, Tra
 
 
 class StereoDataset(Dataset):
+    '''
+    Links to dataset: https://sites.google.com/site/zhjw1988/,
+    https://www.dropbox.com/sh/ve1yoar9fwrusz0/AAAfu7Fo4NqUB7Dn9AiN8pCca?dl=0
+    '''
+    
     def __init__(self, config):
         
         self.root_dir = config['path']

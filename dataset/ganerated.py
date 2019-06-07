@@ -13,6 +13,8 @@ Middle finger MCP joint is at the origin.
 The values are normalized such that the length between middle finger MCP and wrist is 1.''' 
 
 class GANeratedDataset(Dataset):
+    '''Link to dataset: https://handtracker.mpi-inf.mpg.de/projects/GANeratedHands/GANeratedDataset.htm'''
+    
     def __init__(self, config):
         
         self.root_dir = config['path']

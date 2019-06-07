@@ -15,6 +15,11 @@ The values are normalized such that the length between middle finger MCP and wri
 
 
 class SynthHandsDataset(Dataset):
+    '''
+    Link to dataset: http://handtracker.mpi-inf.mpg.de/projects/OccludedHands/SynthHands.htm
+    Dataset for background augmentation: https://groups.csail.mit.edu/vision/datasets/ADE20K/
+    '''
+
     def __init__(self, config):
         
         self.root_dir = config['path']
