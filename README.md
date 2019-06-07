@@ -33,7 +33,6 @@ python trainer.py e010
 ```bash
 python evaluate.py e010 dexter+object
 ```
-##
 
 ## Project structure
 
