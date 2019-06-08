@@ -3,7 +3,7 @@ Master's Thesis in Ukrainian Catholic University (2018)
 
 All the details on the data, preprocessing, model architecture and training details can be found in [thesis text](http://er.ucu.edu.ua/bitstream/handle/1/1327/Chernytska%20-%203D%20Hand%20Pose%20Estimation%20from%20Single%20RGB%20Camera%20-%20master%20thesis.pdf).
 
-Experiment weights can be downloaded from [Google Drive] (https://drive.google.com/drive/folders/1KQ-hgrdHeleA1Dz8L57_YEG6jM-eUqzx?usp=sharing).
+Experiment weights can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1KQ-hgrdHeleA1Dz8L57_YEG6jM-eUqzx?usp=sharing).
 
 ## Requirements
 
